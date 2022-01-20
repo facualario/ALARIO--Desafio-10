@@ -1,0 +1,66 @@
+*, *::before *::after{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: white ;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family:"Poppins";
+    margin: 0;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+section, header {
+    width:70%;
+    margin: 0 auto;
+
+
+}
+.overlay{
+    display: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    padding: 2em;
+
+}
+
+a.logo{
+    font-weight: bold;
+}
+
+
+nav ul { display: flex;}
+
+.myStyle{
+
+    width: 100%;
+    padding: 25px;
+    background-color: aquamarine;
+    color: brown;
+    font-size: 25px;
+    box-sizing: border-box;
+    
+}
+.Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
