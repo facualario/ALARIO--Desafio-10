@@ -28,6 +28,7 @@ $(`#boton${producto.id}`).click(function () {
     });
 }
 
+//Agrego un boton al final para simular el pago 
 
 let boton = document.getElementById("pagar")
 
@@ -35,11 +36,7 @@ boton.addEventListener("click", (e) => {
     pagar()
 })
 
-
-
-
-
-
+//Agrego una funcion a este boton llamando a la API de mercado pago para simular el funcionamiento de pago real en una aplicacion
 
 async function pagar() {
     const productosAMP = carrito.map((element)=>{
